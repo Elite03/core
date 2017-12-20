@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="286" started-at="2017-12-15T13:04:19Z" finished-at="2017-12-15T13:04:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="286" started-at="2017-12-15T13:04:19Z" finished-at="2017-12-15T13:04:19Z">
+      <class name="com.java8.ch06.test.GroupingByTransactionTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.java8.ch06.test.GroupingByTransactionTest@51efea79]" name="setup" is-config="true" duration-ms="119" started-at="2017-12-15T18:34:19Z" finished-at="2017-12-15T18:34:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="groupingImperativelyTest()[pri:0, instance:com.java8.ch06.test.GroupingByTransactionTest@51efea79]" name="groupingImperativelyTest" duration-ms="20" started-at="2017-12-15T18:34:19Z" finished-at="2017-12-15T18:34:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groupingImperativelyTest -->
+        <test-method status="PASS" signature="groupingFunctionallyTest()[pri:0, instance:com.java8.ch06.test.GroupingByTransactionTest@51efea79]" name="groupingFunctionallyTest" duration-ms="98" started-at="2017-12-15T18:34:19Z" depends-on-methods="com.java8.ch06.test.GroupingByTransactionTest.groupingImperativelyTest" finished-at="2017-12-15T18:34:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groupingFunctionallyTest -->
+      </class> <!-- com.java8.ch06.test.GroupingByTransactionTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
