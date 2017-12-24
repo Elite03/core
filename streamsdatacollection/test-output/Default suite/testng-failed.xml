@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+<suite thread-count="-1" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.java8.ch06.test.GroupingByTransactionTest">
+      <class name="com.java8.ch06.test.AverageFinderTest">
         <methods>
-          <include name="setup"/>
-          <include name="groupingImperativelyTest"/>
+          <include name="test"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.java8.ch06.test.GroupingByTransactionTest -->
+      </class> <!-- com.java8.ch06.test.AverageFinderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
